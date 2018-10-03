@@ -1,8 +1,0 @@
-/home/roman/GitHubUse/JAVA_ENTERPRISE/Docker/SpringBoot/src/main/java/com/itis/dockerappboot/repositories/UserRepository.java
-/home/roman/GitHubUse/JAVA_ENTERPRISE/Docker/SpringBoot/src/main/java/com/itis/dockerappboot/application/Application.java
-/home/roman/GitHubUse/JAVA_ENTERPRISE/Docker/SpringBoot/src/main/java/com/itis/dockerappboot/dto/UserDTO.java
-/home/roman/GitHubUse/JAVA_ENTERPRISE/Docker/SpringBoot/src/main/java/com/itis/dockerappboot/config/AppConfig.java
-/home/roman/GitHubUse/JAVA_ENTERPRISE/Docker/SpringBoot/src/main/java/com/itis/dockerappboot/receivers/EmailReceiver.java
-/home/roman/GitHubUse/JAVA_ENTERPRISE/Docker/SpringBoot/src/main/java/com/itis/dockerappboot/services/interfaces/UserService.java
-/home/roman/GitHubUse/JAVA_ENTERPRISE/Docker/SpringBoot/src/main/java/com/itis/dockerappboot/domain/User.java
-/home/roman/GitHubUse/JAVA_ENTERPRISE/Docker/SpringBoot/src/main/java/com/itis/dockerappboot/services/implementations/UserServiceImpl.java
