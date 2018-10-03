@@ -1,0 +1,46 @@
+version: '3'
+services:
+    docker-rabbit:
+        image: 'roman/docker-rabbit:latest'
+        build:
+            context: RabbitMq
+            dockerfile: Dockerfile
+        hostname: docker-node.rabbit
+        ports:
+            - '4369:4369'
+            - '5672:5672'
+            - '15672:15672'
+            - '25672:25672'
+            - '35197:35197'
+        volumes:
+            - "./rabbit-local/data:/var/lib/rabbitmq"
+            - "./rabbit-local/data/logs:/var/log/rabbitmq"
+        container_name: docker-rabbit
+    docker-node:
+        image: 'roman/docker-node:latest'
+        depends_on:
+            - docker-rabbit
+        build:
+            context: NodeJsApp
+            dockerfile: Dockerfile
+        ports:
+            - '8083:8083'
+        container_name: docker-node
+    docker-postgres:
+        image: 'roman/docker-postgres:latest'
+        build:
+            context: docker-app-postgres
+            dockerfile: Dockerfile
+        ports:
+            - '5433:5432'
+        volumes:
+            - "./postgres-local:/var/lib/postgresql/data"
+        container_name: docker-postgres
+    docker-boot:
+        image: 'roman/docker-boot:latest'
+        depends_on: 
+            - docker-postgres
+        build:
+            context: SpringBoot
+            dockerfile: Dockerfile
+        container_name: docker-boot

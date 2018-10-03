@@ -1,0 +1,291 @@
+2018-09-26 09:39:46.118 [info] <0.33.0> Application lager started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.128 [info] <0.5.0> Log file opened with Lager
+2018-09-26 09:39:46.680 [info] <0.33.0> Application crypto started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.799 [info] <0.33.0> Application inets started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.799 [info] <0.33.0> Application recon started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.799 [info] <0.33.0> Application xmerl started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.973 [info] <0.33.0> Application mnesia started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.973 [info] <0.33.0> Application cowlib started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.987 [info] <0.33.0> Application os_mon started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.987 [info] <0.33.0> Application jsx started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.987 [info] <0.33.0> Application asn1 started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:46.988 [info] <0.33.0> Application public_key started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:47.084 [info] <0.33.0> Application ssl started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:47.092 [info] <0.33.0> Application ranch started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:47.097 [info] <0.33.0> Application cowboy started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:47.097 [info] <0.33.0> Application ranch_proxy_protocol started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:47.098 [info] <0.33.0> Application rabbit_common started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:47.108 [info] <0.33.0> Application amqp_client started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:47.124 [info] <0.200.0> 
+ Starting RabbitMQ 3.7.8 on Erlang 20.3.8.5
+ Copyright (C) 2007-2018 Pivotal Software, Inc.
+ Licensed under the MPL.  See http://www.rabbitmq.com/
+2018-09-26 09:39:47.145 [info] <0.200.0> 
+ node           : rabbit@docker-node.rabbit
+ home dir       : /var/lib/rabbitmq
+ config file(s) : /etc/rabbitmq/rabbitmq.config
+ cookie hash    : Z/IdBCREqopyjNxeUzNWpQ==
+ log(s)         : /var/log/rabbitmq/rabbit.log
+                : /var/log/rabbitmq/rabbit@docker-node.rabbit_upgrade.log
+ database dir   : /var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit
+2018-09-26 09:39:50.312 [info] <0.208.0> Memory high watermark set to 4731 MiB (4960885145 bytes) of 11827 MiB (12402212864 bytes) total
+2018-09-26 09:39:50.320 [info] <0.210.0> Enabling free disk space monitoring
+2018-09-26 09:39:50.320 [info] <0.210.0> Disk free limit set to 50MB
+2018-09-26 09:39:50.326 [info] <0.213.0> Limiting to approx 1048476 file handles (943626 sockets)
+2018-09-26 09:39:50.326 [info] <0.214.0> FHC read buffering:  OFF
+2018-09-26 09:39:50.326 [info] <0.214.0> FHC write buffering: ON
+2018-09-26 09:39:50.328 [info] <0.200.0> Node database directory at /var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit is empty. Assuming we need to join an existing cluster or initialise from scratch...
+2018-09-26 09:39:50.328 [info] <0.200.0> Configured peer discovery backend: rabbit_peer_discovery_classic_config
+2018-09-26 09:39:50.328 [info] <0.200.0> Will try to lock with peer discovery backend rabbit_peer_discovery_classic_config
+2018-09-26 09:39:50.328 [info] <0.200.0> Peer discovery backend does not support locking, falling back to randomized delay
+2018-09-26 09:39:50.329 [info] <0.200.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping randomized startup delay.
+2018-09-26 09:39:50.329 [info] <0.200.0> All discovered existing cluster peers: 
+2018-09-26 09:39:50.329 [info] <0.200.0> Discovered no peer nodes to cluster with
+2018-09-26 09:39:50.331 [info] <0.33.0> Application mnesia exited with reason: stopped
+2018-09-26 09:39:50.359 [info] <0.33.0> Application mnesia started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:50.530 [info] <0.200.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-09-26 09:39:50.568 [info] <0.200.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-09-26 09:39:50.621 [info] <0.200.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-09-26 09:39:50.621 [info] <0.200.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2018-09-26 09:39:50.623 [info] <0.200.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2018-09-26 09:39:50.628 [info] <0.382.0> Starting rabbit_node_monitor
+2018-09-26 09:39:50.663 [info] <0.200.0> message_store upgrades: 1 to apply
+2018-09-26 09:39:50.664 [info] <0.200.0> message_store upgrades: Applying rabbit_variable_queue:move_messages_to_vhost_store
+2018-09-26 09:39:50.664 [info] <0.200.0> message_store upgrades: No durable queues found. Skipping message store migration
+2018-09-26 09:39:50.664 [info] <0.200.0> message_store upgrades: Removing the old message store data
+2018-09-26 09:39:50.664 [info] <0.200.0> message_store upgrades: All upgrades applied successfully
+2018-09-26 09:39:50.703 [info] <0.200.0> Management plugin: using rates mode 'basic'
+2018-09-26 09:39:50.705 [info] <0.200.0> Applying definitions from: /etc/rabbitmq/definitions.json
+2018-09-26 09:39:50.705 [info] <0.200.0> Asked to import definitions. Acting user: <<"rmq-internal">>
+2018-09-26 09:39:50.705 [info] <0.200.0> Importing users...
+2018-09-26 09:39:50.706 [info] <0.200.0> Creating user 'api-user'
+2018-09-26 09:39:50.719 [info] <0.200.0> Setting user tags for user 'api-user' to []
+2018-09-26 09:39:50.728 [info] <0.200.0> Creating user 'admin'
+2018-09-26 09:39:50.744 [info] <0.200.0> Setting user tags for user 'admin' to [administrator]
+2018-09-26 09:39:50.752 [info] <0.200.0> Importing vhosts...
+2018-09-26 09:39:50.752 [info] <0.200.0> Adding vhost '/'
+2018-09-26 09:39:50.818 [info] <0.428.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2018-09-26 09:39:50.826 [info] <0.428.0> Starting message stores for vhost '/'
+2018-09-26 09:39:50.827 [info] <0.432.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2018-09-26 09:39:50.828 [info] <0.428.0> Started message store of type transient for vhost '/'
+2018-09-26 09:39:50.828 [info] <0.435.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2018-09-26 09:39:50.829 [warning] <0.435.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2018-09-26 09:39:50.830 [info] <0.428.0> Started message store of type persistent for vhost '/'
+2018-09-26 09:39:50.832 [info] <0.200.0> Importing user permissions...
+2018-09-26 09:39:50.832 [info] <0.200.0> Setting permissions for 'api-user' in '/' to '.*', '.*', '.*'
+2018-09-26 09:39:50.835 [info] <0.200.0> Importing topic permissions...
+2018-09-26 09:39:50.835 [info] <0.200.0> Importing parameters...
+2018-09-26 09:39:50.835 [info] <0.200.0> Importing global parameters...
+2018-09-26 09:39:50.835 [info] <0.200.0> Importing policies...
+2018-09-26 09:39:50.835 [info] <0.200.0> Importing queues...
+2018-09-26 09:39:50.843 [info] <0.200.0> Importing exchanges...
+2018-09-26 09:39:50.851 [info] <0.200.0> Importing bindings...
+2018-09-26 09:39:50.863 [info] <0.477.0> started TCP Listener on [::]:5672
+2018-09-26 09:39:50.871 [info] <0.200.0> Setting up a table for connection tracking on this node: 'tracked_connection_on_node_rabbit@docker-node.rabbit'
+2018-09-26 09:39:50.877 [info] <0.200.0> Setting up a table for per-vhost connection counting on this node: 'tracked_connection_per_vhost_on_node_rabbit@docker-node.rabbit'
+2018-09-26 09:39:50.877 [info] <0.33.0> Application rabbit started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:50.877 [info] <0.33.0> Application rabbitmq_web_dispatch started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:50.881 [info] <0.33.0> Application rabbitmq_management_agent started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:50.919 [info] <0.534.0> Management plugin started. Port: 15672
+2018-09-26 09:39:50.919 [info] <0.640.0> Statistics database started.
+2018-09-26 09:39:50.919 [notice] <0.94.0> Changed loghwm of /var/log/rabbitmq/rabbit.log to 50
+2018-09-26 09:39:50.920 [info] <0.33.0> Application rabbitmq_management started on node 'rabbit@docker-node.rabbit'
+2018-09-26 09:39:51.208 [info] <0.5.0> Server startup complete; 3 plugins started.
+ * rabbitmq_management
+ * rabbitmq_management_agent
+ * rabbitmq_web_dispatch
+2018-09-26 09:52:53.498 [info] <0.685.0> RabbitMQ is asked to stop...
+2018-09-26 09:52:53.599 [info] <0.685.0> Stopping RabbitMQ applications and their dependencies in the following order:
+    rabbitmq_management
+    amqp_client
+    rabbitmq_web_dispatch
+    cowboy
+    cowlib
+    rabbitmq_management_agent
+    rabbit
+    mnesia
+    rabbit_common
+    os_mon
+2018-09-26 09:52:53.599 [info] <0.685.0> Stopping application 'rabbitmq_management'
+2018-09-26 09:52:53.602 [info] <0.685.0> Stopping application 'amqp_client'
+2018-09-26 09:52:53.602 [info] <0.33.0> Application rabbitmq_management exited with reason: stopped
+2018-09-26 09:52:53.603 [info] <0.685.0> Stopping application 'rabbitmq_web_dispatch'
+2018-09-26 09:52:53.603 [info] <0.33.0> Application amqp_client exited with reason: stopped
+2018-09-26 09:52:53.605 [info] <0.685.0> Stopping application 'cowboy'
+2018-09-26 09:52:53.605 [info] <0.33.0> Application rabbitmq_web_dispatch exited with reason: stopped
+2018-09-26 09:52:53.607 [info] <0.33.0> Application cowboy exited with reason: stopped
+2018-09-26 09:52:53.607 [info] <0.685.0> Stopping application 'cowlib'
+2018-09-26 09:52:53.607 [info] <0.33.0> Application cowlib exited with reason: stopped
+2018-09-26 09:52:53.607 [info] <0.685.0> Stopping application 'rabbitmq_management_agent'
+2018-09-26 09:52:53.609 [info] <0.685.0> Stopping application 'rabbit'
+2018-09-26 09:52:53.609 [info] <0.33.0> Application rabbitmq_management_agent exited with reason: stopped
+2018-09-26 09:52:53.609 [info] <0.200.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping unregistration.
+2018-09-26 09:52:53.609 [info] <0.477.0> stopped TCP Listener on [::]:5672
+2018-09-26 09:52:53.610 [info] <0.376.0> Closing all connections in vhost '/' on node 'rabbit@docker-node.rabbit' because the vhost is stopping
+2018-09-26 09:52:53.616 [info] <0.435.0> Stopping message store for directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent'
+2018-09-26 09:52:53.624 [info] <0.435.0> Message store for directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent' is stopped
+2018-09-26 09:52:53.624 [info] <0.432.0> Stopping message store for directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient'
+2018-09-26 09:52:53.633 [info] <0.432.0> Message store for directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient' is stopped
+2018-09-26 09:52:53.645 [info] <0.685.0> Stopping application 'mnesia'
+2018-09-26 09:52:53.645 [info] <0.33.0> Application rabbit exited with reason: stopped
+2018-09-26 09:52:53.647 [info] <0.685.0> Stopping application 'rabbit_common'
+2018-09-26 09:52:53.647 [info] <0.33.0> Application mnesia exited with reason: stopped
+2018-09-26 09:52:53.647 [info] <0.685.0> Stopping application 'os_mon'
+2018-09-26 09:52:53.647 [info] <0.33.0> Application rabbit_common exited with reason: stopped
+2018-09-26 09:52:53.650 [info] <0.685.0> Successfully stopped RabbitMQ and its dependencies
+2018-09-26 09:52:53.650 [info] <0.33.0> Application os_mon exited with reason: stopped
+2018-09-26 09:52:53.650 [info] <0.685.0> Halting Erlang VM with the following applications:
+    ranch_proxy_protocol
+    ranch
+    ssl
+    public_key
+    asn1
+    jsx
+    xmerl
+    recon
+    inets
+    crypto
+    lager
+    goldrush
+    compiler
+    syntax_tools
+    syslog
+    sasl
+    stdlib
+    kernel
+2018-10-03 06:27:32.373 [info] <0.33.0> Application lager started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:32.388 [info] <0.5.0> Log file opened with Lager
+2018-10-03 06:27:34.299 [info] <0.33.0> Application crypto started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.392 [info] <0.33.0> Application inets started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.393 [info] <0.33.0> Application xmerl started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.425 [info] <0.33.0> Application mnesia started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.425 [info] <0.33.0> Application jsx started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.426 [info] <0.33.0> Application recon started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.426 [info] <0.33.0> Application cowlib started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.440 [info] <0.33.0> Application os_mon started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.440 [info] <0.33.0> Application asn1 started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.440 [info] <0.33.0> Application public_key started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.536 [info] <0.33.0> Application ssl started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.542 [info] <0.33.0> Application ranch started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.546 [info] <0.33.0> Application cowboy started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.546 [info] <0.33.0> Application ranch_proxy_protocol started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.546 [info] <0.33.0> Application rabbit_common started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.558 [info] <0.33.0> Application amqp_client started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:34.572 [info] <0.284.0> 
+ Starting RabbitMQ 3.7.8 on Erlang 20.3.8.5
+ Copyright (C) 2007-2018 Pivotal Software, Inc.
+ Licensed under the MPL.  See http://www.rabbitmq.com/
+2018-10-03 06:27:34.573 [info] <0.284.0> 
+ node           : rabbit@docker-node.rabbit
+ home dir       : /var/lib/rabbitmq
+ config file(s) : /etc/rabbitmq/rabbitmq.config
+ cookie hash    : Z/IdBCREqopyjNxeUzNWpQ==
+ log(s)         : /var/log/rabbitmq/rabbit.log
+                : /var/log/rabbitmq/rabbit@docker-node.rabbit_upgrade.log
+ database dir   : /var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit
+2018-10-03 06:27:36.525 [info] <0.292.0> Memory high watermark set to 4731 MiB (4960886784 bytes) of 11827 MiB (12402216960 bytes) total
+2018-10-03 06:27:36.532 [info] <0.294.0> Enabling free disk space monitoring
+2018-10-03 06:27:36.532 [info] <0.294.0> Disk free limit set to 50MB
+2018-10-03 06:27:36.536 [info] <0.297.0> Limiting to approx 1048476 file handles (943626 sockets)
+2018-10-03 06:27:36.537 [info] <0.298.0> FHC read buffering:  OFF
+2018-10-03 06:27:36.537 [info] <0.298.0> FHC write buffering: ON
+2018-10-03 06:27:36.540 [info] <0.284.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-10-03 06:27:36.591 [info] <0.284.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-10-03 06:27:36.591 [info] <0.284.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2018-10-03 06:27:36.592 [info] <0.284.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2018-10-03 06:27:36.596 [info] <0.320.0> Starting rabbit_node_monitor
+2018-10-03 06:27:36.629 [info] <0.284.0> Management plugin: using rates mode 'basic'
+2018-10-03 06:27:36.630 [info] <0.354.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2018-10-03 06:27:36.634 [info] <0.354.0> Starting message stores for vhost '/'
+2018-10-03 06:27:36.634 [info] <0.358.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2018-10-03 06:27:36.637 [info] <0.354.0> Started message store of type transient for vhost '/'
+2018-10-03 06:27:36.637 [info] <0.361.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2018-10-03 06:27:36.643 [info] <0.354.0> Started message store of type persistent for vhost '/'
+2018-10-03 06:27:36.652 [info] <0.284.0> Applying definitions from: /etc/rabbitmq/definitions.json
+2018-10-03 06:27:36.652 [info] <0.284.0> Asked to import definitions. Acting user: <<"rmq-internal">>
+2018-10-03 06:27:36.652 [info] <0.284.0> Importing users...
+2018-10-03 06:27:36.655 [info] <0.284.0> Setting user tags for user 'api-user' to []
+2018-10-03 06:27:36.672 [info] <0.284.0> Setting user tags for user 'admin' to [administrator]
+2018-10-03 06:27:36.680 [info] <0.284.0> Importing vhosts...
+2018-10-03 06:27:36.681 [info] <0.284.0> Importing user permissions...
+2018-10-03 06:27:36.681 [info] <0.284.0> Setting permissions for 'api-user' in '/' to '.*', '.*', '.*'
+2018-10-03 06:27:36.689 [info] <0.284.0> Importing topic permissions...
+2018-10-03 06:27:36.689 [info] <0.284.0> Importing parameters...
+2018-10-03 06:27:36.689 [info] <0.284.0> Importing global parameters...
+2018-10-03 06:27:36.689 [info] <0.284.0> Importing policies...
+2018-10-03 06:27:36.689 [info] <0.284.0> Importing queues...
+2018-10-03 06:27:36.691 [info] <0.284.0> Importing exchanges...
+2018-10-03 06:27:36.691 [info] <0.284.0> Importing bindings...
+2018-10-03 06:27:36.696 [info] <0.412.0> started TCP Listener on [::]:5672
+2018-10-03 06:27:36.697 [info] <0.284.0> Setting up a table for connection tracking on this node: 'tracked_connection_on_node_rabbit@docker-node.rabbit'
+2018-10-03 06:27:36.697 [info] <0.284.0> Setting up a table for per-vhost connection counting on this node: 'tracked_connection_per_vhost_on_node_rabbit@docker-node.rabbit'
+2018-10-03 06:27:36.698 [info] <0.33.0> Application rabbit started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:36.699 [info] <0.33.0> Application rabbitmq_web_dispatch started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:36.704 [info] <0.33.0> Application rabbitmq_management_agent started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:36.737 [info] <0.463.0> Management plugin started. Port: 15672
+2018-10-03 06:27:36.737 [info] <0.569.0> Statistics database started.
+2018-10-03 06:27:36.737 [notice] <0.94.0> Changed loghwm of /var/log/rabbitmq/rabbit.log to 50
+2018-10-03 06:27:36.737 [info] <0.33.0> Application rabbitmq_management started on node 'rabbit@docker-node.rabbit'
+2018-10-03 06:27:36.956 [info] <0.5.0> Server startup complete; 3 plugins started.
+ * rabbitmq_management
+ * rabbitmq_management_agent
+ * rabbitmq_web_dispatch
+2018-10-03 06:28:08.777 [info] <0.585.0> RabbitMQ is asked to stop...
+2018-10-03 06:28:08.906 [info] <0.585.0> Stopping RabbitMQ applications and their dependencies in the following order:
+    rabbitmq_management
+    amqp_client
+    rabbitmq_web_dispatch
+    cowboy
+    cowlib
+    rabbitmq_management_agent
+    rabbit
+    mnesia
+    rabbit_common
+    os_mon
+2018-10-03 06:28:08.906 [info] <0.585.0> Stopping application 'rabbitmq_management'
+2018-10-03 06:28:08.919 [info] <0.33.0> Application rabbitmq_management exited with reason: stopped
+2018-10-03 06:28:08.919 [info] <0.585.0> Stopping application 'amqp_client'
+2018-10-03 06:28:08.920 [info] <0.33.0> Application amqp_client exited with reason: stopped
+2018-10-03 06:28:08.920 [info] <0.585.0> Stopping application 'rabbitmq_web_dispatch'
+2018-10-03 06:28:08.922 [info] <0.33.0> Application rabbitmq_web_dispatch exited with reason: stopped
+2018-10-03 06:28:08.922 [info] <0.585.0> Stopping application 'cowboy'
+2018-10-03 06:28:08.923 [info] <0.33.0> Application cowboy exited with reason: stopped
+2018-10-03 06:28:08.924 [info] <0.585.0> Stopping application 'cowlib'
+2018-10-03 06:28:08.924 [info] <0.33.0> Application cowlib exited with reason: stopped
+2018-10-03 06:28:08.924 [info] <0.585.0> Stopping application 'rabbitmq_management_agent'
+2018-10-03 06:28:08.926 [info] <0.585.0> Stopping application 'rabbit'
+2018-10-03 06:28:08.926 [info] <0.33.0> Application rabbitmq_management_agent exited with reason: stopped
+2018-10-03 06:28:08.926 [info] <0.284.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping unregistration.
+2018-10-03 06:28:08.926 [info] <0.412.0> stopped TCP Listener on [::]:5672
+2018-10-03 06:28:08.927 [info] <0.314.0> Closing all connections in vhost '/' on node 'rabbit@docker-node.rabbit' because the vhost is stopping
+2018-10-03 06:28:08.932 [info] <0.361.0> Stopping message store for directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent'
+2018-10-03 06:28:08.944 [info] <0.361.0> Message store for directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent' is stopped
+2018-10-03 06:28:08.944 [info] <0.358.0> Stopping message store for directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient'
+2018-10-03 06:28:08.949 [info] <0.358.0> Message store for directory '/var/lib/rabbitmq/mnesia/rabbit@docker-node.rabbit/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient' is stopped
+2018-10-03 06:28:08.962 [info] <0.33.0> Application rabbit exited with reason: stopped
+2018-10-03 06:28:08.962 [info] <0.585.0> Stopping application 'mnesia'
+2018-10-03 06:28:08.965 [info] <0.33.0> Application mnesia exited with reason: stopped
+2018-10-03 06:28:08.966 [info] <0.585.0> Stopping application 'rabbit_common'
+2018-10-03 06:28:08.966 [info] <0.585.0> Stopping application 'os_mon'
+2018-10-03 06:28:08.966 [info] <0.33.0> Application rabbit_common exited with reason: stopped
+2018-10-03 06:28:08.968 [info] <0.585.0> Successfully stopped RabbitMQ and its dependencies
+2018-10-03 06:28:08.968 [info] <0.33.0> Application os_mon exited with reason: stopped
+2018-10-03 06:28:08.969 [info] <0.585.0> Halting Erlang VM with the following applications:
+    ranch_proxy_protocol
+    ranch
+    ssl
+    public_key
+    asn1
+    recon
+    jsx
+    xmerl
+    inets
+    crypto
+    lager
+    goldrush
+    compiler
+    syntax_tools
+    syslog
+    sasl
+    stdlib
+    kernel
