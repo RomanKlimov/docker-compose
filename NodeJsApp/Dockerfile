@@ -1,10 +1,11 @@
-FROM node:8
+FROM node:latest
 
-WORKDIR /usr/src/app
-
-RUN npm install express && npm install body-parser && npm install amqplib
+WORKDIR /usr/src/application
 
 COPY . .
 
-CMD [ "node", "server.js"]
-EXPOSE 8800
+RUN npm install
+
+ENTRYPOINT ["npm", "start"]
+
+EXPOSE 8083

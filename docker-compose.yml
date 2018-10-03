@@ -17,12 +17,10 @@ services:
             - "./rabbit-local/data/logs:/var/log/rabbitmq"
         container_name: docker-rabbit
     docker-node:
-        image: 'roman/docker-node:latest'
         depends_on:
             - docker-rabbit
         build:
             context: NodeJsApp
-            dockerfile: Dockerfile
         ports:
             - '8083:8083'
         container_name: docker-node
